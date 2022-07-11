@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-- 16.16.0
+  - 16.16.0
 deploy:
   provider: heroku
   api_key:
@@ -10,3 +10,5 @@ deploy:
     repo: adityaparab/forum-server
     branch: main
   skip_cleanup: 'true'
+before_deploy:
+  - rvm $(travis_internal_ruby) --fuzzy do ruby -S gem install faraday -v 1.8.0
