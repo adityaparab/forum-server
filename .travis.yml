@@ -1,6 +1,6 @@
 deploy:
   provider: heroku
   api_key:
-    master: $HEROKU_KEY
+    secure: $HEROKU_KEY
   app: adi-forum-server
-  language: generic
+  language: node_js
