@@ -3,4 +3,4 @@ deploy:
   api_key:
     master: $HEROKU_KEY
   app: adi-forum-server
-  language: node_js
+  language: generic
