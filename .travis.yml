@@ -4,3 +4,4 @@ deploy:
     master: $HEROKU_KEY
   app:
     master: master
+  language: node_js
