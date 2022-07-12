@@ -8,7 +8,7 @@ deploy:
   app: adi-forum-server
   on:
     repo: adityaparab/forum-server
-    branch: main
+    branch: master
   skip_cleanup: 'true'
 before_deploy:
   - rvm $(travis_internal_ruby) --fuzzy do ruby -S gem install faraday -v 1.8.0
