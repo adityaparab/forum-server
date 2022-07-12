@@ -4,7 +4,7 @@ node_js:
 deploy:
   provider: heroku
   api_key:
-    secure: PMNt4GqIdlDymGiHZlntSQeeup3VQigYnD7N2I/AVfoN2Xt4mXbNhClhuErofdqorscrL5bvZJ8/BGMCGEnUh7yKKDbF01MNwwC4IdufkmFISm0Y9d1ocpRswXP2pbm6D2qi/95RC3wVFw7dPN7/ET+QkK8Y8Qb5rulUoI4dc2L26mQPPaSnYeDJJuZEJa4fGGD5WRUSk4Ko/l+U9Kb8Rm76nFyaomPGMSE77ZFgMz4Ixlp9pEBkTepzrHENAvomsgZzrD8VLROxyIipx4rOgN0BSFZs4u7x49SPcOUgHpSKHIgbk+Is6qoMCjNpLBUsg2iaTrSCm5o0VUPMxARq+5i7WWDvh3uZ3ZDEj5/tAQIQWNHNCiYVWbxfzcAViQUBwYNMY/owrNwioXay5xkWjFcY6t7W2Y+gPITAhoZ8XtXgq36pSLfrZ5Ynu8n6Qo+FlQ7I+80AKgYAomN76QZ2mlEVn50WBLXJmS7jCIW0Mp/NmYqxV6NlEfDTz5DHYF5fdaHDs7lmg0k0XEVBQqC0Be0qPU1tsEWn0NDU1v705GI1nRvWZZvseNIIWSxlhR6Rj/MUz6+//jzLepvroSjNwgfGDWwFNFrFRI8xzRNyp82dJVcsW03JhoN3lGa9Db4uqojCbwp5RrECyvS9UGhXkch4bX34dM0QLVDpIyBaPtg=
+    secure: $HEROKU_KEY
   app: adi-forum-server
   on:
     repo: adityaparab/forum-server
