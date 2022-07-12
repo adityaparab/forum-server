@@ -7,9 +7,7 @@ import { getMongoDbConnectionString } from './app.util';
 console.log(getMongoDbConnectionString());
 
 @Module({
-  imports: [
-    MongooseModule.forRoot(getMongoDbConnectionString(), { retryAttempts: 1 }),
-  ],
+  imports: [MongooseModule.forRoot(getMongoDbConnectionString())],
   controllers: [AppController],
   providers: [AppService],
 })
